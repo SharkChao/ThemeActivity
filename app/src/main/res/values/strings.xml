@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ThemeActivity</string>
+    <string name="title_activity_left">LeftActivity</string>
 </resources>

@@ -8,13 +8,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/fade">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/fade">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".LeftActivity"
+            android:label="@string/title_activity_left"
+            android:theme="@style/fade">
+        </activity>
+        <activity android:name=".RightActivity"
+            android:theme="@style/fade">
         </activity>
     </application>
 
